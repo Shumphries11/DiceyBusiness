@@ -10,3 +10,33 @@
     justify-content: center;
     font-size: 100px;
 }
+
+#btnDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.dieBox {
+    cursor: pointer;
+}
+
+#generateBtn {
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgba(60, 255, 76, 0.575);
+}
+
+#rollBtn {
+    cursor: pointer;
+    font-weight: bolder;
+    color: white;
+    background-color: rgba(220, 20, 20, 0.774);
+}
+
+#sumDice {
+    cursor: pointer;
+    font-weight: bolder; 
+    background-color: gold;
+}
