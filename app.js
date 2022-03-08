@@ -68,5 +68,5 @@ function sum(arr) {
 
 sumDice.addEventListener('click', () => {
     let result = sum(diceArr);
-    alert(result);
+    alert(`The sum of the dice is ${result}.`);
 })
